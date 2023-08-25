@@ -31,15 +31,15 @@ public class Enemy : MonoBehaviour {
     }
 
     private void KillEnemy() {
-        GameObject vfx = Instantiate(deathVFX, transform.position, Quaternion.identity);
-        vfx.transform.parent = parentGameObject.transform;
+        GameObject fx = Instantiate(deathVFX, transform.position, Quaternion.identity);
+        fx.transform.parent = parentGameObject.transform;
+        scoreBoard.IncreaseScore(scorePerHit);
         Destroy(gameObject);
     }
 
     private void ProcessHit() {
         enemyHp--;
         GameObject vfx = Instantiate(hitVFX, transform.position, Quaternion.identity);
-        vfx.transform.parent = parentGameObject.transform;
-        scoreBoard.IncreaseScore(scorePerHit);
+        vfx.transform.parent = parentGameObject.transform;        
     }
 }

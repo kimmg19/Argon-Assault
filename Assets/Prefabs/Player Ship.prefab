@@ -86,7 +86,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7271d8b6b1f45044999ab3cc436d1bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosion: {fileID: 0}
+  crashVFX: {fileID: 3564616606660627748}
+  colliderObj: {fileID: 8548273001025542246}
 --- !u!54 &7698420881746416470
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -368,6 +369,11 @@ PrefabInstance:
 --- !u!4 &3564616606660627747 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3200836327345539235, guid: d2c744d78799a47488ef7b2f880fbb22, type: 3}
+  m_PrefabInstance: {fileID: 2095203264821708160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &3564616606660627748 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3200836327345539236, guid: d2c744d78799a47488ef7b2f880fbb22, type: 3}
   m_PrefabInstance: {fileID: 2095203264821708160}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4156694330776921042

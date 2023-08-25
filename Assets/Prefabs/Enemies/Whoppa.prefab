@@ -1478,6 +1478,7 @@ GameObject:
   - component: {fileID: 7117935876679125530}
   - component: {fileID: 4981838524772204240}
   - component: {fileID: 4244737684585766781}
+  - component: {fileID: 1476121298}
   m_Layer: 0
   m_Name: Whoppa
   m_TagString: Untagged
@@ -1492,7 +1493,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6783537929962168069}
-  m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.3836765, y: 2.1190844, z: -12.711016}
   m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 0
@@ -1565,6 +1566,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: e5efe1ec148b25e4fb5dc69d5a4e0763, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: c6bdae41be1a13c4abf37599d62bc919, type: 3}
-  parent: {fileID: 0}
   scorePerHit: 150
-  enemyHp: 20
+  enemyHp: 25
+--- !u!95 &1476121298
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6783537929962168069}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
